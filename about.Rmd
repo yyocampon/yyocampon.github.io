@@ -2,3 +2,7 @@
 title: "Trabajos"
 ---
 ### Gráfica con problemas:
+
+Queda pendiente
+
+<iframe src="http://docs.google.com/gview?url=http://C:\Users\Lenovo\Documents\YEISON\semillero_R\yyocampon.github.io\CONTAMINACIÓN_AIRE.pdf&embedded=true" style="width:500px; height:375px;" frameborder="0"></iframe>
