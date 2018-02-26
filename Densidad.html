@@ -173,7 +173,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Yeison Yovany Ocampo Naranjo</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -203,7 +203,27 @@ $(document).ready(function () {
 </div>
 
 
-<p>More about this website.</p>
+<p>Sabemos que podemos encontrar dos casos donde encontremos una densidad en una variable aleatoria continua y vamos a ver de una manera muy breve y conscisa el uso de cada una de ellas.</p>
+<div id="de-manera-empirica" class="section level3">
+<h3>De manera empírica</h3>
+<p>Si nosotros tenemos un conjunto de datos usualmente nos interesa saber el comportamiento de ellos y observar si es similar o parecida a alguna de las distribuciones que nosotros conocemos y así poder ajustar de alguna manera el fenómeno y hacerlo más comprensible para nosotros, es el caso de la siguiente base de datos del R llamada <code>iris</code>, y observaremos la variable ancho de sepalo (para mayor información sobre la base de datos consulte <code>help(iris)</code>). Para esto usaremos el comando <code>hist()</code>que nos permitirá realizar un histograma para la variable, además del comando <code>lines()</code> el cual nos servirá para graficar la curva sobre el histograma</p>
+<pre class="r"><code>hist(iris$Sepal.Width, main = &quot;Histograma del ancho de sepalo&quot;, xlab = &quot;anchos del sepalo&quot;, ylab = &quot;densidad del ancho de sepalo&quot;, freq = F,las=1)
+lines(density(iris$Sepal.Width))</code></pre>
+<p><img src="Densidad_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="basados-en-una-distribucion-teorica" class="section level3">
+<h3>Basados en una distribución (teórica)</h3>
+<p>Consideremos una variable aleatoria normal, recuerde que si <span class="math inline">\(X\sim N(\mu,\sigma^{2})\)</span>, entonces su función densidad de probabilidad viene dada por: <span class="math display">\[f_{X}(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}left(\frac{x-\mu}{\sigma}\right)^{2}}\]</span></p>
+<p>Para graficar la curva de nuestra densidad usaremos el comando <code>plot()</code> que viene en el paquete básico del R, donde crearemos un vector para los valores de <code>x</code> y utilizamos la función <code>dnorm()</code>para evaluar nuestra densidad</p>
+<pre class="r"><code># Creamos el vector que va desde -4 a 4 con saltos de 0.1
+x&lt;- seq(-4,4,0.1)
+# Evaluamos los valores en la función en una normal media=0, desviación estándar=1
+y&lt;- dnorm(x)
+#Graficamos
+plot(x,y, main = &quot;Distribución Normal Estándar&quot;, las=1, xlab = &quot;valores de x&quot;, ylab = &quot;valores evaluados en la densidad&quot;, type = &quot;l&quot;)</code></pre>
+<p><img src="Densidad_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Otra función que nos permite generar la curva de la densidad es: <code>curve()</code> que también es del paquete básico del R</p>
+</div>
 
 
 

@@ -1,15 +1,18 @@
-name: "my-website"
-output_dir: "."
+name: my-website
+output_dir: '.'
 navbar:
-  title: "My Website"
+  title: Yeison Yovany Ocampo Naranjo
   left:
-    - text: "Sobre mi"
-      href: index.html
-    - text: "Trabajos"
-      href: about.html
-    - text: "Densidad"
-      href: Densidad.html
+  - text: Sobre mi
+    href: index.html
+  - text: Trabajos
+    href: about.html
+  - text: Densidad
+    href: Densidad.html
 output:
   html_document:
     theme: cosmo
     highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
+

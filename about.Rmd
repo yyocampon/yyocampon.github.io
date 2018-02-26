@@ -1,5 +1,4 @@
 ---
-title: "About This Website"
+title: "Trabajos"
 ---
-
-More about this website.
+### Gráfica con problemas:
