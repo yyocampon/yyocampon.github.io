@@ -1,8 +1,8 @@
 ---
 title: "Trabajos"
 ---
-### Gráfica con problemas:
+### Aplicación
 
-Queda pendiente
+-Poster: <a href="\Users\Lenovo\Documents\YEISON\semillero_R\yyocampon.github.io\CONTAMINACION_AIRE.pdf#" class="download" title="Download resume as PDF (Updated October, 2017)">Download Resume as PDF (Updated October, 2017)</a2
+© 2018 GitHub, Inc.
 
-<iframe src="http://docs.google.com/gview?url=http://C:\Users\Lenovo\Documents\YEISON\semillero_R\yyocampon.github.io\CONTAMINACIÓN_AIRE.pdf&embedded=true" style="width:500px; height:375px;" frameborder="0"></iframe>
