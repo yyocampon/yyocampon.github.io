@@ -16,6 +16,7 @@ lines(density(iris$Sepal.Width))
 ### Basados en una distribución (teórica)
 
 Consideremos una variable aleatoria normal, recuerde que si $X\sim N(\mu,\sigma^{2})$, entonces su función densidad de probabilidad viene dada por:
+
 $$f_{X}(x)=\frac{1}{\sqrt{2\pi}\sigma} e^{- \frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}}, \quad x \in (-\infty,\infty)$$
 
 Para graficar la curva de nuestra densidad usaremos el comando `plot()` que viene en el paquete básico del R, donde crearemos un vector para los valores de `x` y utilizamos la función `dnorm()`para evaluar nuestra densidad

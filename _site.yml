@@ -11,8 +11,8 @@ navbar:
     href: Densidad.html
 output:
   html_document:
-    theme: cosmo
-    highlight: textmate
+    theme: cerulean
+    highlight: tango
     lib_dir: site_libs
     self_contained: no
 
