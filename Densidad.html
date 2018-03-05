@@ -15,30 +15,56 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
 </style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
 
 
 <style type="text/css">
@@ -207,20 +233,20 @@ $(document).ready(function () {
 <div id="de-manera-empirica" class="section level3">
 <h3>De manera empírica</h3>
 <p>Si nosotros tenemos un conjunto de datos usualmente nos interesa saber el comportamiento de ellos y observar si es similar o parecida a alguna de las distribuciones que nosotros conocemos y así poder ajustar de alguna manera el fenómeno y hacerlo más comprensible para nosotros, es el caso de la siguiente base de datos del R llamada <code>iris</code>, y observaremos la variable ancho de sepalo (para mayor información sobre la base de datos consulte <code>help(iris)</code>). Para esto usaremos el comando <code>hist()</code>que nos permitirá realizar un histograma para la variable, además del comando <code>lines()</code> el cual nos servirá para graficar la curva sobre el histograma</p>
-<pre class="r"><code>hist(iris$Sepal.Width, main = &quot;Histograma del ancho de sepalo&quot;, xlab = &quot;anchos del sepalo&quot;, ylab = &quot;densidad del ancho de sepalo&quot;, freq = F,las=1)
-lines(density(iris$Sepal.Width))</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">hist</span>(iris<span class="op">$</span>Sepal.Width, <span class="dt">main =</span> <span class="st">&quot;Histograma del ancho de sepalo&quot;</span>, <span class="dt">xlab =</span> <span class="st">&quot;anchos del sepalo&quot;</span>, <span class="dt">ylab =</span> <span class="st">&quot;densidad del ancho de sepalo&quot;</span>, <span class="dt">freq =</span> F,<span class="dt">las=</span><span class="dv">1</span>)
+<span class="kw">lines</span>(<span class="kw">density</span>(iris<span class="op">$</span>Sepal.Width))</code></pre></div>
 <p><img src="Densidad_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
 <div id="basados-en-una-distribucion-teorica" class="section level3">
 <h3>Basados en una distribución (teórica)</h3>
 <p>Consideremos una variable aleatoria normal, recuerde que si <span class="math inline">\(X\sim N(\mu,\sigma^{2})\)</span>, entonces su función densidad de probabilidad viene dada por: <span class="math display">\[f_{X}(x)=\frac{1}{\sqrt{2\pi}\sigma} e^{- \frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}}, \quad x \in (-\infty,\infty)\]</span></p>
 <p>Para graficar la curva de nuestra densidad usaremos el comando <code>plot()</code> que viene en el paquete básico del R, donde crearemos un vector para los valores de <code>x</code> y utilizamos la función <code>dnorm()</code>para evaluar nuestra densidad</p>
-<pre class="r"><code># Creamos el vector que va desde -4 a 4 con saltos de 0.1
-x&lt;- seq(-4,4,0.1)
-# Evaluamos los valores en la función en una normal media=0, desviación estándar=1
-y&lt;- dnorm(x)
-#Graficamos
-plot(x,y, main = &quot;Distribución Normal Estándar&quot;, las=1, xlab = &quot;valores de x&quot;, ylab = &quot;valores evaluados en la densidad&quot;, type = &quot;l&quot;)</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Creamos el vector que va desde -4 a 4 con saltos de 0.1</span>
+x&lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="op">-</span><span class="dv">4</span>,<span class="dv">4</span>,<span class="fl">0.1</span>)
+<span class="co"># Evaluamos los valores en la función en una normal media=0, desviación estándar=1</span>
+y&lt;-<span class="st"> </span><span class="kw">dnorm</span>(x)
+<span class="co">#Graficamos</span>
+<span class="kw">plot</span>(x,y, <span class="dt">main =</span> <span class="st">&quot;Distribución Normal Estándar&quot;</span>, <span class="dt">las=</span><span class="dv">1</span>, <span class="dt">xlab =</span> <span class="st">&quot;valores de x&quot;</span>, <span class="dt">ylab =</span> <span class="st">&quot;valores evaluados en la densidad&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;l&quot;</span>)</code></pre></div>
 <p><img src="Densidad_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>Otra función que nos permite generar la curva de la densidad es: <code>curve()</code> que también es del paquete básico del R</p>
 </div>
