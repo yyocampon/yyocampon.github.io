@@ -1,9 +1,8 @@
 ---
 title: "Trabajos"
 ---
-### Aplicación
 
-Aún no puedo entender qué pasa con esto....
+### Presentación XXVIII Simposio Internacional de Estadística
 
-- Poster: <a href="Users/Lenovo/Documents/YEISON/semillero_R/yyocampon.github.io/CONTAMINACION_AIRE.pdf#" class="download" title="Download resume as PDF (Updated October, 2017)">Download Resume as PDF (Updated October, 2017)</a2
+-Poster: <a href="XXVIII_SIMPOSIO_EST.pdf#" class="download" title="Descarga el poster(Julio 2018)"> Descarga aquí el póster (Julio,2018) </a>
 
