@@ -239,7 +239,8 @@ $(document).ready(function () {
 </div>
 <div id="basados-en-una-distribucion-teorica" class="section level3">
 <h3>Basados en una distribución (teórica)</h3>
-<p>Consideremos una variable aleatoria normal, recuerde que si <span class="math inline">\(X\sim N(\mu,\sigma^{2})\)</span>, entonces su función densidad de probabilidad viene dada por: <span class="math display">\[f_{X}(x)=\frac{1}{\sqrt{2\pi}\sigma} e^{- \frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}}, \quad x \in (-\infty,\infty)\]</span></p>
+<p>Consideremos una variable aleatoria normal, recuerde que si <span class="math inline">\(X\sim N(\mu,\sigma^{2})\)</span>, entonces su función densidad de probabilidad viene dada por:</p>
+<p><span class="math display">\[f_{X}(x)=\frac{1}{\sqrt{2\pi}\sigma} e^{- \frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}}, \quad x \in (-\infty,\infty)\]</span></p>
 <p>Para graficar la curva de nuestra densidad usaremos el comando <code>plot()</code> que viene en el paquete básico del R, donde crearemos un vector para los valores de <code>x</code> y utilizamos la función <code>dnorm()</code>para evaluar nuestra densidad</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Creamos el vector que va desde -4 a 4 con saltos de 0.1</span>
 x&lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="op">-</span><span class="dv">4</span>,<span class="dv">4</span>,<span class="fl">0.1</span>)
