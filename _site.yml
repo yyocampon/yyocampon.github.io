@@ -5,14 +5,20 @@ navbar:
   left:
   - text: Sobre mi
     href: index.html
+  #- text: Densidad
+  #  href: Densidad.html
+  - text: Monitoría
+    href: Monitoria.html
   - text: Trabajos
     href: about.html
-  - text: Densidad
-    href: Densidad.html
+  right:
+    - icon: fa-github
+    - icon: ion-social-twitter
+    - icon: ion-social-facebook
 output:
   html_document:
     theme: cerulean
     highlight: tango
     lib_dir: site_libs
-    self_contained: no
+    self_contained: yes
 
