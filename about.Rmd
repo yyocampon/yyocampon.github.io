@@ -6,3 +6,8 @@ A continuación se agregarán los trabajos realizados durante el pregrado de Est
 ### Presentación XXVIII Simposio Internacional de Estadística
 
 -Póster: <a href="XXVIII_SIMPOSIO_EST.pdf#" class="download" title="Descarga el poster(Julio 2018)"> Descarga aquí el póster (Julio,2018) </a>
+
+
+### Participación en curso corto sobre (Querying and Reporting)
+
+-Certificado : <a href="Yeison.Ocampo.pdf#" class="view" title="Descarga el certificado (Mayo 18, 2018"> SAS Enterprise Guide: Querying and Reporting  (Mayo 18,2018) </a>

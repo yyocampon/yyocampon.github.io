@@ -2,7 +2,7 @@
 title: "Estadística 1 (Probabilidad e Inferencia Estadística)"
 ---
 
-En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados por mi persona para el curso de Estadística 1. Adicionalmente hallarás los resumenes del cuarto y quinto parcial sobre **Intervalos de Confianza** y **Pruebas de Hipótesis** los cuales están autorizados a ser utilizados durante los exámenes.
+En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados por mi persona para el curso de Estadística 1. Adicionalmente hallarás los resumenes del cuarto y quinto parcial desarrolados por la *Escuela de Estadística de la Universidad Nacional, Sede Medellín* sobre **Intervalos de Confianza** y **Pruebas de Hipótesis** los cuales están autorizados a ser utilizados durante los exámenes.
 
 ### Tablas de la distribución Normal, t y Chi cuadrado
 
@@ -14,7 +14,7 @@ En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados
 
 ### Resumen sobre distribuciones discretas y continuas. (Segundo parcial)
 
--Para el parcial 2: <a href="Resumen_segundo_parcial.pdf#" class="download" title="Resumen segundo parcial"> Descarga aquí el resumen para el segundo parcial (NO USABLE EN EL EXAMEN) </a>
+-Para preparación del parcial 2: <a href="Resumen_segundo_parcial.pdf#" class="download" title="Resumen segundo parcial"> Descarga aquí el resumen para el segundo parcial (NO USABLE EN EL EXAMEN) </a>
 
 ### Resumen sobre Intervalos de Confianza. (Cuarto parcial)
 
