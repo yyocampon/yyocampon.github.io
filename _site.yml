@@ -13,8 +13,9 @@ navbar:
     href: about.html
   right:
     - icon: fa-github
+      href: https://github.com/yyocampon
     - icon: ion-social-twitter
-    - icon: ion-social-facebook
+      href: https://twitter.com/Yovany_Ocampo
 output:
   html_document:
     theme: cerulean
