@@ -12,9 +12,15 @@ En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados
 
 -Para el parcial 5: <a href="tabla_F.pdf#" class="download" title="Tabla de la distribución f"> Descarga aquí la tabla de la distribución F </a>
 
+### Resumen sobre nociones de probabilidad, conjuntos y funciones de probabilidad (Primer parcial)
+
+-Para preparación del parcial 1: <a href="Resumen_primer_parcial.pdf#" class="download" title="Resumen primer parcial"> Descarga aquí el resumen para el primer parcial (NO USABLE EN EL EXAMEN) </a>
+
 ### Resumen sobre distribuciones discretas y continuas. (Segundo parcial)
 
 -Para preparación del parcial 2: <a href="Resumen_segundo_parcial.pdf#" class="download" title="Resumen segundo parcial"> Descarga aquí el resumen para el segundo parcial (NO USABLE EN EL EXAMEN) </a>
+
+### Resumen sobre distribuciones bivariadas (Tercer parcial)
 
 ### Resumen sobre Intervalos de Confianza. (Cuarto parcial)
 
