@@ -4,7 +4,7 @@ title: "Estadística 1 (Probabilidad e Inferencia Estadística)"
 
 En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados por mi persona para el curso de Estadística 1. Adicionalmente hallarás los resumenes del cuarto y quinto parcial desarrolados por la *Escuela de Estadística de la Universidad Nacional, Sede Medellín* sobre **Intervalos de Confianza** y **Pruebas de Hipótesis** los cuales están autorizados a ser utilizados durante los exámenes.
 
-### Tablas de la distribución Normal, t y Chi cuadrado
+<h2> Tablas de la distribución Normal, t y &chi; cuadrado </h2>
 
 -Para el parcial 2, 3, 4, 5: <a href="Tablas_normal_t_y_ji.pdf#" class="download" title="Tabla de la normal"> Descarga aquí la tabla de la distribución normal </a>
 
@@ -13,21 +13,9 @@ En esta pestaña encontrarás los resúmenes de los parciales 1, 2, 3 elaborados
 -Para el parcial 5: <a href="tabla_F.pdf#" class="download" title="Tabla de la distribución f"> Descarga aquí la tabla de la distribución F </a>
 
 
-<ul>
-
-<li type="square">Tabla de la distribución Normal, t y .</li>
-
-<li type="square">Este es otro.</li>
-
-<li type="disc">Y este es otro diferente.</li>
-
-</ul>
-
-
 <h2> Resumenes preparatorios para parciales </h2>
 
--Para el parcial 5: <a href="Resumen_Pruebas_de_hipotesis.pdf#" class="download" title="Resumen PH"> Descarga aquí el resumen para el quinto parcial </a>
-<hr >
+
 <ol>
 
 <li value="1"> Resumen parcial 1 <a href="Resumen_primer_parcial.pdf#" class="download" title="Resumen primer parcial" target="_blank"> Descarga aquí el resumen para el primer parcial (NO USABLE EN EL EXAMEN)  </a> </li>
