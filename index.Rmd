@@ -13,7 +13,6 @@ Soy Yeison Yovany Ocampo Naranjo, actualmente estudiante del programa académico
 * Proyecto institucional __Joven tómate la palabra y ponla en acción__ a cargo del docente __Fabio Hernán Serna Londoño__, el cual se encarga de fomentar la participación de los jóvenes de las comunas en mecanismos que permitan la integración de nuevas ideas para la construcción de sociedad.
 
 ![](C:\Users\Lenovo\Documents\YEISON\semillero_R\yyocampon.github.io\foto_perfil.jpg)
-
 <br/>
 <center> 
 Contador de visitas:
@@ -24,5 +23,4 @@ Contador de visitas:
 <img src="http://hitwebcounter.com/counter/counter.php?page=7013435&style=0005&nbdigits=5&type=page&initCount=0" title="web page hit counters codes Free" Alt="web page hit counters codes Free"   border="10" >
 </center>
 </a>                                        <br/>
-
-                       
+                                        <!-- hitwebcounter.com --><a                      
